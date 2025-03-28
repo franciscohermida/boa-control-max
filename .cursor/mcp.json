@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "3dsmax": {
+      "command": "pnpm dlx tsx",
+      "args": [
+        "./packages/max-mcp-server/src/server.ts"
+      ]
+    }
+  }
+}

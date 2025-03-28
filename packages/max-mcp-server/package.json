@@ -1,0 +1,25 @@
+{
+  "name": "max-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for Max integration",
+  "main": "dist/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/server.ts",
+    "build": "tsc",
+    "dev": "tsx watch src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.7.0",
+    "eventsource": "^3.0.5",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "tsx": "^4.7.1",
+    "typescript": "^5.3.3"
+  }
+}
