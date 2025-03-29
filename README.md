@@ -105,6 +105,11 @@ The server uses parallel language handlers for MaxScript and Python:
 
 The dual implementation enables comparing capabilities and performance between the two scripting languages.
 
+## Other MCP Servers:
+- Blender MCP: https://github.com/ahujasid/blender-mcp
+- Unity MCP: https://github.com/justinpbarnett/unity-mcp
+- Unreal Engine Generative AI Support Plugin: https://github.com/prajwalshettydev/UnrealGenAISupport
+
 ## TODO
 
 - [ ] Simplify installation for non-developers
