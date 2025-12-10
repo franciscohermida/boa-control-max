@@ -22,6 +22,7 @@ cd boa-control-max
 pnpm install
 
 # Start the server
+cd packages/max-server
 pnpm run dev
 ```
 
