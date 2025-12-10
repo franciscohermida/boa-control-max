@@ -1,7 +1,7 @@
 import json
 import socket
 import time
-import requests
+# import requests
 import os
 import threading
 import sys
@@ -174,8 +174,9 @@ class MaxMCPServer:
     def execute_py_code(self, code):
         """Execute arbitrary 3ds Max Python code"""
         try:
-            print("zzzzzzzzzzzzzzzzzzzzzz HERE?")
+            print('--------------------------------')
             print(code)
+            print('--------------------------------')
             # Create a local namespace for execution with access to MaxScript runtime
             namespace = {"rt": rt}
             exec(code, namespace)

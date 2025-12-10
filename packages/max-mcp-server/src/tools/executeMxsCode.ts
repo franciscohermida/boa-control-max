@@ -4,18 +4,21 @@ export const executeMxsCode = {
 
   ** Prioritize using python for 3ds max scripting. Use maxscript only for tasks that are not possible with python. **
 
-  # 3ds max coords
+  ## General instructions
+  - do not reset the scene as you might delete existing work
+
+  ## 3ds max coords
   x+ right
   y+ forward
   Z+ up
 
-  # Object creation
+  ## Object creation
   - pivot points are usually at the bottom of the object
 
-  # general code instructions
+  ## general code instructions
   - enclose in () scope to avoid problems when using local variables and not accessing global variables
 
-  # instructions for returning values:
+  ## instructions for returning values:
   - To return a value in maxscript just leaving the value as the last line in the () scope, do not use "return" keyword
   - Return values must be JSON serializable objects and arrays exclusively via python values
   - for strings, numbers, booleans etc, just leave maxscript value as the last line.
@@ -70,7 +73,7 @@ export const executeMxsCode = {
       )
     )
 
-  # Common errors:
+  ## Common errors:
   - the "objects" keyword is reserved and has all the objects in the scene, don't try to define a variable with this reserved word
   - when grouping objects the syntax is: group myArrayOfObjects
   - when grouping do not use this wrong syntax: group (objects (for obj in myArrayOfObjects collect obj))
